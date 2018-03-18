@@ -1,0 +1,10 @@
+// ==UserScript==
+// @author      Vitaliy Busko
+// @name        n-ice UserJS
+// @version     <%= pkg.version %>
+// @description Adds position change from last view to current time at TOP-100 table on n-ice.org
+// @match       http://www.n-ice.org/openttd/highscore.php
+// @include     http://www.n-ice.org/openttd/highscore.php
+// @match       http://www.n-ice.org/openttd/highscoretop100.php
+// @include     http://www.n-ice.org/openttd/highscoretop100.php
+// ==/UserScript==

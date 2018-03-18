@@ -1,0 +1,21 @@
+{
+  "name": "n-ice.user.js",
+  "version": "1.0.0",
+  "description": "Userscript for n-ice.org",
+  "main": "Gruntfile.js",
+  "dependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-uglify": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-shell": "~0.3.1",
+    "grunt-contrib-copy": "~0.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {},
+  "author": {
+    "name": "Vitaliy Busko",
+    "email": "vitaliy.opensource@gmail.com",
+    "url" : "https://github.com/Fenex/"
+  },
+  "license": "MIT"
+}

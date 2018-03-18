@@ -1,0 +1,17 @@
+
+{
+  "name": "Exec UserJS",
+  "manifest_version": 2,
+  "version": "1.0",
+  "author": "Busko Vitaliy",
+  //"author_github": "https://github.com/Fenex/",
+  "description": "Extension for develop UserJS",
+  "background": {
+    "scripts": [ "bg.js" ]
+  },
+  "permissions": [
+    "tabs", "http://*/*", "https://*/*", "file://*/*"
+  ],
+  "web_accessible_resources": [ ],
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
+}
